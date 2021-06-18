@@ -1,13 +1,14 @@
+/* CSS Reset */
 * {
-	vertical-align: baseline;
-	font-weight: inherit;
-	font-family: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	border: 0 none;
-	outline: 0;
-	padding: 0;
-	margin: 0;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
 }
 
 #wrapper {
@@ -40,7 +41,7 @@
     vertical-align: middle;
     padding: 1px 10px;
     border-radius: 5px;
-    border:  2px solid silver;
+    border: 2px solid silver;
     box-shadow: 5px 5px 5px black;
     color: white;
     font-size: 14px;
@@ -79,7 +80,6 @@
     height: 150px;
     background-color: #245076;
     text-align: end;
-    
 }
 
 #topOptions a {
@@ -94,11 +94,10 @@
 #topOptions h3 {
     width: 30px;
     height: 30px;
-    background-color: blue;
+    background-color: #245076;
     display: inline-block;
     margin: 0px 10px 0px 0px;
 }
-
 
 #searchDiv {
     display: flex;
@@ -113,10 +112,6 @@
     box-shadow: 5px 5px 5px #2a2a2a;
 }
 
-
-
-
-
 #main {
     width: 970px;
     height: 560px;
@@ -124,7 +119,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
 }
 
 #sideNav {
@@ -132,24 +126,30 @@
     height: 250px;
     background-color: #245076;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 20px 60px 0px 0px;
 }
 
-#sideNav li  {
+#sideNav a {
+    position: relative;
+    left: -30px;
+    bottom: 8px;
+}
+
+#sideNav li {
     margin: 10px 0px 0px 0px;
-    list-style-type: none;
+    list-style-image: url(double_arrow_yellow_small.png);
+    position: relative;
+    left: 90px;
 }
 
 #sideNav a {
     color: white;
 }
 
-
-
 #mainTheme {
     width: 700px;
     height: 200px;
-    background-color:#245076;
+    background-color: #245076;
     justify-content: space-evenly;
 }
 
@@ -232,10 +232,12 @@
     height: 50px;
     padding: 50px 0px 0px 0px;
     background-color: chartreuse;
-    background-image: linear-gradient(to bottom , #25527a, #3270a6)
+    background-image: linear-gradient(to bottom, #25527a, #3270a6)
 }
 
-#footer ul, #footer li, #footer p {
+#footer ul,
+#footer li,
+#footer p {
     display: flex;
     flex-wrap: wrap;
     margin: 5px 15px 0px 30px;
@@ -244,9 +246,6 @@
     color: lightblue;
 }
 
-
 #footer p {
     font-size: 11px;
 }
-
-
