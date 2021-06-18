@@ -13,17 +13,44 @@
 #wrapper {
     width: 970px;
     height: 860px;
-    background-color: black;
+    background-color: #245076;
     margin: 0 auto;
 }
 
 #header {
     width: 100%;
     height: 200px;
-    background-color: blueviolet;
+    background-color: #245076;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+#search {
+    height: 30px;
+    width: 180px;
+    justify-self: center;
+    display: inline-block;
+    margin: 4px 5px 0px 0px;
+}
+
+#header h3 {
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px 10px;
+    border-radius: 5px;
+    border:  2px solid silver;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    font-size: 14px;
+}
+
+#header img {
+    display: inline-block;
+    height: 120px;
+    width: auto;
+    padding: 20px 0px 0px 40px;
 }
 
 #header ul {
@@ -33,37 +60,77 @@
     list-style-type: none;
     width: 85%;
     height: 40px;
-    background-color: darkolivegreen;
+    background-color: #407bad;
     align-content: center;
     justify-self: center;
     margin-left: 100px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px #23323f;
 }
 
 #header ul li a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
-#searchDiv {
+#topOptions {
     width: 350px;
     height: 150px;
-    background-color: crimson;
+    background-color: #245076;
+    text-align: end;
+    
 }
+
+#topOptions a {
+    color: yellow;
+}
+
+#topOptions h5 {
+    margin: 30px 60px 0px 0px;
+    color: white;
+}
+
+#topOptions h3 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+
+#searchDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    height: 40px;
+    width: 240px;
+    margin: 0px 0px 0px 40px;
+    background-color: #444444;
+    border-radius: 15px;
+    padding: 15px 20px 10px 30px;
+    box-shadow: 5px 5px 5px #2a2a2a;
+}
+
+
+
+
 
 #main {
     width: 970px;
     height: 560px;
-    background-color: cadetblue;
+    background-color: #245076;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 #sideNav {
     width: 200px;
     height: 250px;
-    background-color: darkmagenta;
+    background-color: #245076;
     text-align: center;
     margin: 10px 0px 0px 0px;
 }
@@ -82,14 +149,14 @@
 #mainTheme {
     width: 700px;
     height: 200px;
-    background-color:rgb(16, 209, 90);
+    background-color:#245076;
     justify-content: space-evenly;
 }
 
 #mainTheme p {
     width: 690px;
     height: 80px;
-    background-color: tomato;
+    background-color: #245076;
     color: white;
     text-align: center;
     font-size: 17px;
@@ -107,7 +174,7 @@
     text-align: center;
     list-style-type: none;
     font-size: 20px;
-    background-color: violet;
+    background-color: #245076;
     margin: 12px 0px 0px 140px;
     font-style: italic;
     color: yellow;
@@ -120,32 +187,66 @@
 #mainBottom {
     width: 100%;
     height: 230px;
-    border-top: 3px solid darkslategrey;
-    background-color: fuchsia;
-    margin: 30px 0px 0px 0px;
+    background-color: white;
+    margin: 70px 0px 0px 0px;
+    padding: 0px 0px 0px 60px;
+    box-shadow: 0px -3px 1px #2a2a2a;
 }
 
 .guideColumn {
-    height: 230px;
-    width: 440px;
-    background-color: yellow;
-    margin: 0px 0px 0px 20px;
+    height: 210px;
+    width: 410px;
+    background-color: white;
+    margin: 10px 0px 0px 20px;
+    border-top: 4px solid #73a7d5;
     display: inline-block;
     vertical-align: top;
     text-align: center;
 }
 
-#footer {
-    width: 100%;
-    height: 100px;
-    background-color: chartreuse;
-}
-/*changed from id*/
-#header img {
-    display: inline-block;
-    height: 150px;
-    width: auto;
+.guideColumn h3 {
+    font-size: 18px;
+    font-weight: 900;
 }
 
+.guideColumn p {
+    width: 320px;
+    margin: 5px 0px 0px 40px;
+}
+
+.guideColumn a {
+    color: #73a7d5;
+    position: relative;
+    left: -70px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.guideColumn li {
+    position: relative;
+    left: 70px;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    padding: 50px 0px 0px 0px;
+    background-color: chartreuse;
+    background-image: linear-gradient(to bottom , #25527a, #3270a6)
+}
+
+#footer ul, #footer li, #footer p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 15px 0px 30px;
+    justify-content: center;
+    list-style-type: none;
+    color: lightblue;
+}
+
+
+#footer p {
+    font-size: 11px;
+}
 
 
